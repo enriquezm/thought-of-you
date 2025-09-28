@@ -4,7 +4,7 @@
     <main class="baseHome__main">
       <ul>
         <li v-for="poem in poems" :key="poem.id">
-          <h2>{{ poem.title }}</h2>
+          <h2 v-if="poem.title">{{ poem.title }}</h2>
           <div v-html="poem.text"></div>
         </li>
       </ul>
@@ -27,7 +27,7 @@ const poems = ref(data);
   display: flex;
   flex-direction: column;
   height: 100vh;
-  padding: 20px;
+  padding: 32px;
 
   &__main {
     flex-grow: 2;
