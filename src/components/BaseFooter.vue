@@ -1,6 +1,6 @@
 <template>
   <footer class="baseFooter">
-    <p class="baseFooter__text">❤️ thought of you, and i smiled, 2025</p>
+    <p class="baseFooter__text">❤️ thought of you again, and i smiled, 2025</p>
   </footer>
 </template>
 
